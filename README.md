@@ -4,9 +4,9 @@ The purpose of this proof of concept (PoC) is to demonstrate that GATK commands 
 Note that there are a few insecure settings in the Gramine manifest for the purpose of testing; these will need to be removed in production.
 
 ## Testing Specs
-Type: Azure confidential computing SGX virtual machine<br>
-Size: Standard DC8 v2 (8 vCPUs, 32 GiB RAM)<br>
-OS: Linux (Ubuntu 20.04)
+Type:   Azure confidential computing SGX virtual machine<br>
+Size:   Standard DC8 v2 (8 vCPUs, 32 GiB RAM)<br>
+OS:     Linux (Ubuntu 20.04)
 
 ## Pre-requisites
 
@@ -32,6 +32,6 @@ Below are screenshots of what a successful execution of the PoC should look like
 
 ## Useful Resources
 
-[Gramine GitHub](https://github.com/gramineproject/gramine)
-[GATK GitHub](https://github.com/broadinstitute/gatk)
+[Gramine GitHub](https://github.com/gramineproject/gramine)<br>
+[GATK GitHub](https://github.com/broadinstitute/gatk)<br>
 [GCS folder](https://console.cloud.google.com/storage/browser/gatk-test-data/wgs_bam/NA12878_24RG_hg38?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&organizationId=548622027621&project=broad-dsde-outreach&prefix=&forceOnObjectsSortingFiltering=false) for input file
